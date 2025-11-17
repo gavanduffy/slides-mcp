@@ -8,3 +8,4 @@ coverage
 test-output
 *.pptx
 *.odp
+manual-test.js

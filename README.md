@@ -60,6 +60,23 @@ npm start:http
 
 The server will start on `http://localhost:3000` (or the port specified by the `PORT` environment variable).
 
+## Configuration
+
+To use with an MCP client like Claude Desktop, add to your MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "slides-mcp": {
+      "command": "node",
+      "args": ["/path/to/slides-mcp/dist/server/stdioServer.js"]
+    }
+  }
+}
+```
+
+See `mcp-config-example.json` for a complete example.
+
 ## MCP Tool: `json_to_pptx`
 
 ### Input Schema
@@ -122,6 +139,10 @@ The server will start on `http://localhost:3000` (or the port specified by the `
 
 - **File mode** (default): Returns path to generated PPTX file
 - **Base64 mode**: Returns base64-encoded PPTX data
+
+### Example
+
+See `example-slideshow.json` for a complete example of a slideshow JSON structure.
 
 ## Development
 

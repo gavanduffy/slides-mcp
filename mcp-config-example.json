@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "slides-mcp": {
+      "command": "node",
+      "args": ["/path/to/slides-mcp/dist/server/stdioServer.js"],
+      "env": {}
+    }
+  }
+}

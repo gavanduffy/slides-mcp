@@ -1,0 +1,91 @@
+{
+  "slideshow": {
+    "meta": {
+      "title": "Example Presentation",
+      "author": "Your Name"
+    },
+    "images": [
+      {
+        "id": "logo",
+        "dataBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+        "mimeType": "image/png"
+      }
+    ],
+    "slides": [
+      {
+        "title": "Title Slide",
+        "elements": [
+          {
+            "type": "text",
+            "placeholder": "title",
+            "text": "Welcome to My Presentation"
+          },
+          {
+            "type": "text",
+            "text": "A subtitle or tagline",
+            "level": 0
+          }
+        ]
+      },
+      {
+        "title": "Content Slide",
+        "elements": [
+          {
+            "type": "text",
+            "placeholder": "title",
+            "text": "Key Points"
+          },
+          {
+            "type": "text",
+            "text": "First important point",
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "type": "text",
+            "text": "Second important point",
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "type": "text",
+            "text": "Sub-point under second",
+            "bullet": true,
+            "level": 1
+          },
+          {
+            "type": "text",
+            "text": "Third important point",
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "notes": {
+          "plainText": "Remember to emphasize the second point during presentation"
+        }
+      },
+      {
+        "title": "Image Slide",
+        "elements": [
+          {
+            "type": "text",
+            "placeholder": "title",
+            "text": "Visual Content"
+          },
+          {
+            "type": "image",
+            "imageRef": "logo",
+            "x": 5,
+            "y": 8,
+            "width": 15,
+            "height": 10,
+            "altText": "Company logo"
+          }
+        ]
+      }
+    ]
+  },
+  "options": {
+    "returnBase64": false
+  }
+}
